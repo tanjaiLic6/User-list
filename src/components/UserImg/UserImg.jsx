@@ -5,7 +5,7 @@ import './UserImg.css';
 export const UserImg=({picture})=>{
 
     return (
-        <div><img src={picture} /></div>
+        <div><img src={picture} className='round-img' /></div>
         
     )
 }

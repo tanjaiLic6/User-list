@@ -7,7 +7,7 @@ import { randomUserList } from '../../data/randomUserList';
 export const UserList=()=>{
 
    return(
-   <div className='container'>{
+   <div className='container user-list'>{
      randomUserList.map((user,index)=>{
        return(
         <User user={user} key={index}/>

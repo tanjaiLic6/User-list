@@ -6,7 +6,7 @@ import './User.css';
 export const User =({user})=>{
 
  return(
-   <div className='d-flex '>
+   <div className='d-flex user '>
 
    <UserImg  picture={user.picture.thumbnail}/>
    <UserInfo name={user.name.first} email={user.email} dateBirth={user.dob.date} />
