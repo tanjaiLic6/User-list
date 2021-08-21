@@ -7,7 +7,7 @@ import { Header } from '../Header/Header';
 
 export const Body=()=>{
 
-    const [isListView, setisListView]=useState();
+    const [isListView, setisListView]=useState(false);
 
     const toggleLayout = () => setisListView(!isListView);
 
